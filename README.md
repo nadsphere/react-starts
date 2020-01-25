@@ -14,14 +14,14 @@ How to use:
 4. yarn start
 5. enjoy coding !
 
-Installing fist github repo:
+Installing first github repo:
 git config --global user.name "<yourname>"
 git config --global user.email "<youremail>"
 git config --global core.autocrlf false
 edit (optional): git config --global --edit
   vi ~/.gitconfig
 check your config: git config --list --show-origin
------
+
 Make a ssh key on windows/ssl
 cd ~
 mkdir .ssh
@@ -44,7 +44,6 @@ cat ~/.ssh/id_rsa.pub
 copy in the github
 check identified or not: ssh -vT git@github.com
 src: https://peteoshea.co.uk/setup-git-in-wsl/
-=========================================================================================================
 
 connecting to github:
 git add .
